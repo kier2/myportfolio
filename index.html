@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="css/light.css" id="light-css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head >
 <body>
     
@@ -64,15 +65,16 @@
         </section>
         <section class="about sections">
             <div class="about-inner sections-inner">
-                <div class="col">
-                    <h2 class="about-title">About Me</h2>
+                <div class="col about-intro">
+                    <h2 class="about-title heading">About Me</h2>
                     <div class="separator"></div>
 
                     <div class="about-desc">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla soluta dolor amet quam vitae doloremque optio, consequuntur eligendi delectus adipisci cumque nihil id repudiandae illum atque quasi obcaecati natus maxime quae distinctio velit! Vero fugit labore eaque, temporibus natus expedita numquam quos, eos quod id at beatae harum voluptates necessitatibus?
                     </div>
-
-                    <a href="#" class="btn btn-primary">Contact Me</a>
+                    <div class="cta">
+                        <a href="#" class="btn btn-primary">Contact Me</a>
+                    </div>
 
                     <div class="social-media-links">
                         <a href="#"><i class="fab fa-github"></i></a>
@@ -80,7 +82,7 @@
                         <a href="#"><i class="fab fa-codepen"></i></a>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col tools-col">
                     <h4>Tools Expertness</h4>
 
                     <div class="tools">
@@ -138,25 +140,29 @@
         </section>
         <section class="projects sections">
             <div class="projects-inner sections-inner">
-                <h2>My Projects</h2>
-                <div class="separator"></div>
+                <div class="title-box">
+                    <h2 class="heading">My Projects</h2>
+                    <div class="separator"></div>
+                </div>
 
                 <div class="projects-gallery">
-                    <article></article>
-                    <article></article>
-                    <article></article>
-                    <article></article>
-                    <article></article>
-                    <article></article>
+                    <article><img src="./img/product-placeholder.png" alt="placeholder"></article>
+                    <article><img src="./img/product-placeholder.png" alt="placeholder"></article>
+                    <article><img src="./img/product-placeholder.png" alt="placeholder"></article>
+                    <article><img src="./img/product-placeholder.png" alt="placeholder"></article>
+                    <article><img src="./img/product-placeholder.png" alt="placeholder"></article>
+                    <article><img src="./img/product-placeholder.png" alt="placeholder"></article>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <section class="contact sections">
             <div class="contact-inner sections-inner">
-                <h2 class="contact-title">Get in Touch</h2>
+                <div class="title-box">
+                <h2 class="contact-title heading">Get in Touch</h2>
                 <div class="separator"></div>
+                </div>
 
                 <div class="contact-details">
                     <div class="contact-details-item">
@@ -183,8 +189,10 @@
         </section>
         <div class="separator long"></div>
         <section class="footer-bottom sections-inner">
-            <p><a href="#">©kierdev.com</a>. All rights reserved.</p>
+            <p>© <a href="./">kierdev.com</a> 2021. All rights reserved.</p>
         </section>
     </footer>
+
+    <script src="./js/tool.js"></script>
 </body>
 </html>

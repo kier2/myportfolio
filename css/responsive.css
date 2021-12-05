@@ -1,0 +1,11 @@
+/* About */
+@media(min-width:1440px){
+    .about-desc {
+        padding-right: 4rem;
+    }
+}
+@media(max-width:1440px){
+    .about-desc {
+        padding-right: 8rem;
+    }
+}
