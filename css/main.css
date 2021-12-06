@@ -5,11 +5,8 @@
 }
 
 :root{
-    --primary-color:#25BEC8;
-    --secondary-color:#F26707;
     --trinary-color:#252328;
-    --light-color:#E0E5E9;
-
+    
     --heading-font:'Raleway', sans-serif;
     --body-font:'Poppins', sans-serif;
     --body-text-color:'#403E43';
@@ -225,6 +222,9 @@ h6{
     width: 100%;
     height: 100%;
     position: relative;
+}
+.intro .separator{
+    margin-bottom: 0;
 }
 /* .sections-inner{overflow: hidden;} */
 .intro-inner .col:first-child{
