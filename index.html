@@ -5,38 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/light.css" id="light-css">
     <!-- <link rel="stylesheet" href="css/darkgreen.css" id="light-css"> -->
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="./css/project.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head >
 <body>
-    
+
     <header class="page-header">
         <nav class="navbar">
             <a href="/" class="logo-wrapper">
                 <img src="./img/kier-logo-black.svg" alt="logo">
             </a>
+            <div class="menu-toggler">Menu</div>
+            
+            <div class="mobile-menu">
+                <div class="close-menu">&times;</div>
+                <ul class="navbar-menu">
+                    <li class="active"><a href="#">Home </a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li class="color-switcher-wrapper">
+                        <div class="color-switcher"><i class="fas fa-fill"></i></div>
 
-            <ul class="navbar-menu">
-                <li class="active"><a href="#">Home </a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-                <li class="color-switcher-wrapper">
-                    <div class="color-switcher"><i class="fas fa-fill"></i></div>
-
-                    <div class="color-options">
-                        <div class="color-options-item" data-theme="light"></div>
-                        <div class="color-options-item" data-theme="dark"></div>
-                        <div class="color-options-item" data-theme="altDark"></div>
-                    </div>
-                </li>
-            </ul>
+                        <div class="color-options">
+                            <div class="color-options-item" data-theme="light"></div>
+                            <div class="color-options-item" data-theme="dark"></div>
+                            <div class="color-options-item" data-theme="altDark"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -147,7 +152,40 @@
                 </div>
 
                 <div class="projects-gallery">
-                    <article><img src="./img/product-placeholder.png" alt="placeholder"></article>
+                    <article class="projects-gallery-item first">
+                        <div class="projects-gallery-item-img">
+                        </div>
+                        <div class="project-gallery-item-content">
+                            <h5 class="project-name">JD Site</h5>
+                            <div class="project-content-inner">
+                                <h6 class="project-tools">Tools</h6>
+                                <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                </ul>
+
+                                <a class="btn" href="https://kier2.github.io/jd-site/">View Site <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            
+                        </div>
+                    </article>
+                    <article class="projects-gallery-item">
+                        <div class="projects-gallery-item-img">
+                        <!-- <img src="./img/jd-site.png" alt="JD site"> -->
+                        </div>
+                        <div class="project-gallery-item-content">
+                            <h5>JD Site</h5>
+
+                            <h6 class="project-tools">Tools</h6>
+                            <ul>
+                              <li>HTML</li>
+                              <li>CSS</li>
+                              <li>Javascript</li>
+                            </ul>
+                            <a class="btn" href="https://kier2.github.io/jd-site/">View Site <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
                     <article><img src="./img/product-placeholder.png" alt="placeholder"></article>
                     <article><img src="./img/product-placeholder.png" alt="placeholder"></article>
                     <article><img src="./img/product-placeholder.png" alt="placeholder"></article>
@@ -180,7 +218,7 @@
                     </div>
                     <div class="contact-details-item">
                         <div class="contact-details-icon">
-                            
+
                             <i class="far fa-comment-alt"></i>
                         </div>
                         <a href="#" class="contact-details-link">chat with me </a>
@@ -195,5 +233,6 @@
     </footer>
 
     <script src="./js/tool.js"></script>
+    <script src="./js/navbar.js"></script>
 </body>
 </html>

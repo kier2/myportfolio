@@ -2,5 +2,6 @@
     --primary-color:#25BEC8;
     --secondary-color:#F26707;
     --light-color:#E0E5E9;
-    --alt-bg-color:#fff;
+    --alt-bg-color:#ffffff;
+    --overlay-main-color:rgba(0, 0, 0, .9);
 }

@@ -12,6 +12,7 @@
     --body-text-color:'#403E43';
 
     --default-width-layout:85%;
+    --overlay-bg-color:rgba(23, 25, 26, 0.9);
 
 }
 body{
@@ -108,6 +109,9 @@ h6{
 .color-switcher{
     cursor: pointer;
 }
+.navbar{
+    position: relative;
+}
 .navbar .navbar-menu li > a,
 .color-switcher{
     color: var(--trinary-color);
@@ -124,6 +128,16 @@ h6{
 .navbar .navbar-menu li > a:hover,
 .color-switcher:hover{
     color: var(--primary-color);
+}
+.menu-toggler {
+    cursor: pointer
+}
+.close-menu{
+    transition: ease 400ms;
+    cursor: pointer;
+}
+.close-menu:hover{
+    opacity: .8;
 }
 /* Color Theme */
 .color-switcher-wrapper{
@@ -301,6 +315,9 @@ h6{
 }
 
 /* About */
+.about{
+    background:var(--alt-bg-color);
+}
 .about-inner{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -316,6 +333,7 @@ h6{
 }
 
 /* Tools */
+
 .tools-col {
     padding: 1rem;
 }
@@ -353,19 +371,11 @@ h6{
 /* Projects */
 .projects{background: var(--light-color);}
 
-.projects-gallery{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1rem;
-}
-.projects-gallery article > img{
-    object-fit: cover;
-    height: 100%;
-} 
 .projects .separator{
     width: 8%;
 }
 /* Footer */
+footer{background: var(--alt-bg-color);}
 .contact-inner{
     display: flex;
     flex-direction: column;
