@@ -8,32 +8,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/light.css" id="theme-css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/project.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- <link rel="stylesheet" href="./css/responsive.css"> -->
 </head>
 <body>
-    <div class="color-switcher"><i class="fas fa-fill"></i>
-
-        <div class="color-options" id="themes">
-            <div class="color-options-item" data-theme="white"></div>
-            <div class="color-options-item" data-theme="green"></div>
-            <div class="color-options-item" data-theme="orange"></div>
-        </div>
-    </div>
     <header class="page-header">
         <nav class="navbar">
             <a href="./" class="logo-wrapper">
-                <img class="light-logo" src="./img/kier-logo-black.svg" alt="logo">
-                <img class="dark-logo" src="./img/kier-logo-black-bg-white.svg" alt="logo">
-                <img class="dark-logo-2" src="./img/kier-logo-orange-green.svg" alt="logo">
+                <img class="light-logo" src="./img/kier-logo-dark.svg" alt="logo">
             </a>
-            <div class="menu-toggler"><i class="fa-solid fa-bars"></i></div>
+            <!-- <div class="menu-toggler"><i class="fa-solid fa-bars"></i></div> -->
             
             <div class="mobile-menu">
-                <div class="close-menu">&times;</div>
+                <!-- <div class="close-menu">&times;</div> -->
                 <ul class="navbar-menu">
                     <li class="active"><a href="./">Home </a></li>
                     <li><a href="./#about">About Me</a></li>
@@ -44,130 +34,231 @@
         </nav>
     </header>
     <main class="main-content">
-        <section class="intro sections light-bg" id="intro">
-            <div class="intro-inner sections-inner">
-                <div class="col">
-                    <header class="intro-heading"><div class="separator"></div> <h6>Hi,</h6></header>
-                    <h1 class="intro-title">I’m <span class="colored-text">Kieren</span> Quimosquimos</h1>
+        <section class="intro">
+            <div class="intro-inner">
+                <h1 class="intro-title">K<span class="colored-text">i</span>eren Qu<span class="colored-text">i</span>mosqu<span class="colored-text">i</span>mos</h1>
 
                     <div class="intro-desc">
-                        I have 2+ years of experience as a WordPress Developer. I can create stunning websites, create an ecommerce website with WooCommerce, perform basic SEO, install WordPress on your hosting provider's server, map your domain to your hosting provider, and provide technical support for your website.
+                        <h4>
+                            I design, develop dynamic website, and I love what I do.
+                        </h4>
                     </div>
                     <div class="cta">
-                        <a href="./#projects" class="btn btn-primary">My Projects</a>
-                        <a href="./img/kieren-quimosquimos-resume-ph.pdf" class="btn btn-secondary" target="_blank">View Resume</a>
+                        <a href="./#projects" class="btn btn-primary">
+                            <span>My Projects</span>
+                        </a>
+                        <a href="./img/kieren-quimosquimos-resume-ph.pdf" class="btn btn-outline" target="_blank">
+                            <span>View Resume</span>
+                        </a>
                     </div>
-
-                    <div class="social-media-links">
+                    <a href="#about-me" class="arrow-anchor">
+                        <svg class="icon-down" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 17L12 7M12 17L8 13M12 17L16 13" stroke="#25BEC8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </a>
+                    
+                    <!-- <div class="social-media-links">
                         <a href="https://github.com/kier2?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/kieren-quimosquimos-5900b01ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
                         <a href="https://codepen.io/codingkier"><i class="fab fa-codepen" target="_blank"></i></a>
-                    </div>
-                </div>
-                <div class="col">
-                    <!-- <img class="me-img" src="./img/kieren2.png" alt="person in formal"> -->
-                </div>
+                    </div> -->
             </div>
-            <img class="me-img" src="./img/kieren2.png" alt="person in formal">
+            
         </section>
-        <section class="about sections alt-bg" id="about">
-            <div class="about-inner sections-inner">
-                <div class="col about-intro">
-                    <h2 class="about-title heading">About Me</h2>
-                    <div class="separator"></div>
 
-                    <div class="about-desc">
-                        <p>
-                        Hi! I am <strong>Kieren Quimosquimos</strong>, 23 years of age, in good health and moral character. I do have a lot of experience as well which includes:
-                        </p>
-                        <ul class="list-of-skills">
-                            <li> Customization of existing WordPress plugin and theme</li>
-                            <li> Development of custom theme/plugin</li> 
-                            <li>Multisite compatible plugin development</li>
-                            <li>Developing e-commerce site with WooCommerce</li>
-                            <li>Troubleshoot website issue related to plugin/theme bugs, code bugs, and plugin/theme compatibility issue</li>
-                            <li> Integrate CRM with gravity forms 
-                            Zapier integration with gravity forms. </li>
-                        </ul>
-                        <p>
-                        These are some of the skills I’m confident in dealing with. I have the knowledge and experience in learning and excelling. If it appears that my qualifications meet your current need I would be happy to further discuss my background with you.</p>
-                    </div>
-                    <div class="cta">
-                        <a href="./#contacts" class="btn btn-primary">Contact Me</a>
-                    </div>
-
-                    <div class="social-media-links">
-                        <a href="https://github.com/kier2?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/kieren-quimosquimos-5900b01ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://codepen.io/codingkier"><i class="fab fa-codepen" target="_blank"></i></a>
-                    </div>
+        <section class="about-me has-alt-bg" id="about-me">
+            <div class="about-inner">
+                <div class="img-me">
+                    <img src="./img/image-me.png" alt="">
                 </div>
-                <div class="col tools-col">
-                    <h4>Tools Expertness</h4>
-
-                    <div class="tools">
-                        <div class="tools-item">
-                            <div class="tools-item-label">html</div>
-                            
-                        </div>
-                        <div class="tools-item">
-                            <div class="tools-item-label">css</div>
-                            
-                        </div>
-                        <div class="tools-item">
-                            <div class="tools-item-label">javascript</div>
-                            
-                        </div>
-                        <div class="tools-item">
-                            <div class="tools-item-label">php</div>
-                            
-                        </div>
-                        <div class="tools-item">
-                            <div class="tools-item-label">mysql</div>
-                            
-                        </div>
-                        <div class="tools-item">
-                            <div class="tools-item-label">wordpress</div>
-                        </div>
-                        <div class="tools-item">
-                            <div class="tools-item-label">jquery</div>
-                        </div>
-                        <div class="tools-item">
-                            <div class="tools-item-label">bootstrap</div>
-                        </div>
-                        <div class="tools-item">
-                            <div class="tools-item-label">woocommerce</div>
-                        </div>
-                        <div class="tools-item">
-                            <div class="tools-item-label">memberpress</div>
-                        </div>
-                        <div class="tools-item">
-                            <div class="tools-item-label">EC2 AWS Basics</div>
-                        </div>
-                        <div class="tools-item">
-                            <div class="tools-item-label">Domain Hosting</div>
-                        </div>
-                    </div>
+                <div class="about-desc">
+                    <p>
+                        I have 2+ years of experience as a WordPress Developer. I can create stunning websites, create an ecommerce website with WooCommerce, perform basic SEO, install WordPress on your hosting provider's server, map your domain to your hosting provider, and provide technical support for your website. 
+                    </p>
                 </div>
             </div>
         </section>
-        <section class="projects sections light-bg featured-projects" id="projects">
-            <div class="projects-inner sections-inner">
-                <div class="title-box">
-                    <h2 class="heading">My Projects</h2>
-                    <div class="separator"></div>
+
+        <section class="skill">
+            <div class="skill-inner">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="./img/programming.png" alt="">
+                    </div>
+                    <div class="skill-text">
+                        <h5>Frontend</h5>
+
+                        <div class="skill-desc">
+                            <p>
+                                I enjoy working with a variety of technologies, including CMS, frameworks, and custom coding.
+                            </p>
+                        </div>
+                        <div class="work">
+                            <h6>What I do:</h6>
+                            <p>HTML, CSS, Javascript </p>
+                        </div>
+
+                        <div class="tools">
+                            <h6>Tools</h6>
+                            <ul>
+                                <li>WordPress</li>
+                                <li>Shopify</li>
+                                <li>Tailwind</li>
+                                <li>Bootstrap</li>
+                                <li>Wix</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="./img/backend.png" alt="">
+                    </div>
+                    <div class="skill-text">
+                        <h5>Backend</h5>
+
+                        <div class="skill-desc">
+                            <p>
+                                I enjoy working with a variety of technologies, including CMS, frameworks, and custom coding.
+                            </p>
+                        </div>
+                        <div class="work">
+                            <h6>What I do:</h6>
+                            <p>Domain mapping, Hosting, PHP, MySQL</p>
+                        </div>
+
+                        <div class="tools">
+                            <h6>Tools</h6>
+                            <ul>
+                                <li>Cloudflare</li>
+                                <li>AWS EC2</li>
+                                <li>Laravel</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="./img/web-design.png" alt="">
+                    </div>
+                    <div class="skill-text">
+                        <h5>Other Stuff</h5>
+
+                        <div class="skill-desc">
+                            <p>
+                                I enjoy working with a variety of technologies, including CMS, frameworks, and custom coding.
+                            </p>
+                        </div>
+                        <div class="work">
+                            <h6>What I do:</h6>
+                            <p>Web design, Mockup, WordPress VA</p>
+                        </div>
+
+                        <div class="tools">
+                            <h6>Tools</h6>
+                            <ul>
+                                <li>Canva</li>
+                                <li>Photoshop</li>
+                                <li>Figma</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="projects-inner">
+                <div class="project-headings">
+                    <h2 class="heading">Some Of My Projects</h2>
+
+                    <p>
+                        These are the few projects that I've previously worked on.
+                    </p>
                 </div>
 
-                <div class="projects-gallery" id="project-gallery">
-                </div>
-
-                <div class="cta">
-                    <a class="btn btn-primary" href="./project.html">View All Projects</a>
+                <div class="projects-items">
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/dld-banner.jpg" alt="">
+                        </div>
+                        <div class="project-item-content">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse doloribus consectetur nisi fuga nostrum distinctio!
+                            </p>
+                            <a href="#" class="btn-sm btn-outline-alt" target="_blank">
+                            <span>View Projects</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/devifyverse-banner.png" alt="">
+                        </div>
+                        <div class="project-item-content">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse doloribus consectetur nisi fuga nostrum distinctio!
+                            </p>
+                            <a href="#" class="btn-sm btn-outline-alt" target="_blank">
+                            <span>View Projects</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/dld-website.jpg" alt="">
+                        </div>
+                        <div class="project-item-content">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse doloribus consectetur nisi fuga nostrum distinctio!
+                            </p>
+                            <a href="#" class="btn-sm btn-outline-alt" target="_blank">
+                            <span>View Projects</span>
+                         </a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/dld-website.jpg" alt="">
+                        </div>
+                        <div class="project-item-content">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse doloribus consectetur nisi fuga nostrum distinctio!
+                            </p>
+                            <a href="#" class="btn-sm btn-outline-alt" target="_blank">
+                            <span>View Projects</span>
+                         </a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/devifyverse-banner.png" alt="">
+                        </div>
+                        <div class="project-item-content">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse doloribus consectetur nisi fuga nostrum distinctio!
+                            </p>
+                            <a href="#" class="btn-sm btn-outline-alt" target="_blank">
+                            <span>View Projects</span>
+                         </a>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-item-img">
+                            <img src="./img/dld-website.jpg" alt="">
+                        </div>
+                        <div class="project-item-content">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse doloribus consectetur nisi fuga nostrum distinctio!
+                            </p>
+                            <a href="#" class="btn-sm btn-outline-alt" target="_blank">
+                            <span>View Projects</span>
+                         </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="footer alt-bg">
+    <!-- <footer class="footer alt-bg">
         <section class="contact sections" id="contacts">
             <div class="contact-inner sections-inner">
                 <div class="title-box">
@@ -204,10 +295,8 @@
         <section class="footer-bottom sections-inner">
             <p>© <a href="https://kieren.site/">www.kieren.site</a> 2022. All rights reserved.</p>
         </section>
-    </footer>
+    </footer> -->
 
     <script src="./js/navbar.js"></script>
-    <script src="./js/projects.js"></script>
-    <script src="./js/theme.js"></script>
 </body>
 </html>
